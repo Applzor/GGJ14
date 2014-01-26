@@ -4,6 +4,7 @@ using System.Collections;
 public class SingleMine : Useable {
 
 	public GameObject[] particles;
+	public int score;
 
 	public override void Trigger() {
 

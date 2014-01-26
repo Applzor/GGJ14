@@ -12,6 +12,7 @@ public class EnemyAI : MonoBehaviour {
 	}
 
 	void Die() {
+		GameObject.Find ("$GameManager").GetComponent<GameManager> ().score += 100;
 		Destroy (this.gameObject);
 	}
 }

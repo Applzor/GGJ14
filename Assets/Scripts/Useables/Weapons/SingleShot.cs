@@ -9,20 +9,20 @@ public class SingleShot : Useable {
 	private double timer = 0; 
 
 	void Start() {
-		obj = Instantiate (particle, new Vector3 (0, 100, 0), Quaternion.Euler(0,0,0)) as GameObject;
+		//obj = Instantiate (particle, new Vector3 (0, 100, 0), Quaternion.Euler(0,0,0)) as GameObject;
 	}
 
 	void Update() {
 		timer += Time.deltaTime;
-		if (timer >= 1) {
-			obj.renderer.enabled = false;
-		}
+		//if (timer >= 1) {
+		//	obj.renderer.enabled = false;
+		//}
 	}
 
 	public override void Trigger() {
 		particleSystem.Play ();
-		obj.transform.position = transform.position + (transform.forward * 2);
-		obj.rigidbody.AddForce (transform.up * 100);
+		//obj.transform.position = transform.position + (transform.forward * 2);
+		//obj.rigidbody.AddForce (transform.up * 100);
 		timer = 0;
 	}
 

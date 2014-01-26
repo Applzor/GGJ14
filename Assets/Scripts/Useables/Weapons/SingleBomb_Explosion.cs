@@ -9,7 +9,6 @@ public class SingleBomb_Explosion : MonoBehaviour {
 	
 	void Update() {
 		timer += Time.deltaTime;
-		Debug.Log (timer);
 	}
 	
 	void OnTriggerStay(Collider obj) {
