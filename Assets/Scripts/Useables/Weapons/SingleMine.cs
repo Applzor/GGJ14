@@ -8,6 +8,6 @@ public class SingleMine : Useable {
 	public override void Trigger() {
 
 		foreach (GameObject obj in particles) 
-			Instantiate(obj, transform.position, Quaternion.Euler(-90,0,0));
+			Instantiate(obj, transform.position + (transform.up*0.25f), Quaternion.Euler(-90,0,0));
 	}
 }

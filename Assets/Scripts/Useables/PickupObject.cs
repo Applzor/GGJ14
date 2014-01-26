@@ -14,7 +14,8 @@ public class PickupObject : MonoBehaviour {
 
 				//	Remove any objects already attached to the player
 				foreach (Transform child in e.transform) {
-					Destroy(child.gameObject);
+					if (child.tag == "object")
+						Destroy(child.gameObject);
 				}
 
 				//	Get a random weapon/ability and attach to the object

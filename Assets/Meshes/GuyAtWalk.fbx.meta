@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: 16bda005a5193c344b7d208e1bc7c02c
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: body
+    100002: //RootNode
+    100004: hair
+    100006: hair1
+    100008: hair2
+    100010: hat
+    100012: head
+    100014: jo_head
+    100016: jo_l_clav
+    100018: jo_l_elbow
+    100020: jo_l_hand_01
+    100022: Jo_l_hand_02
+    100024: Jo_l_hand_03
+    100026: jo_l_leg_01
+    100028: jo_l_leg_02
+    100030: jo_l_leg_03
+    100032: jo_l_leg_04
+    100034: jo_l_leg_05
+    100036: jo_l_sholder
+    100038: jo_l_wrist
+    100040: jo_neck_01
+    100042: jo_neck_02
+    100044: jo_r_clav
+    100046: jo_r_elbow
+    100048: jo_r_hand_01
+    100050: Jo_r_hand_02
+    100052: Jo_r_hand_03
+    100054: jo_r_leg_01
+    100056: jo_r_leg_02
+    100058: jo_r_leg_03
+    100060: jo_r_leg_04
+    100062: jo_r_leg_05
+    100064: jo_r_sholder
+    100066: jo_r_wrist
+    100068: jo_spine_1
+    100070: jo_spine_2
+    100072: M_joint
+    400000: body
+    400002: //RootNode
+    400004: hair
+    400006: hair1
+    400008: hair2
+    400010: hat
+    400012: head
+    400014: jo_head
+    400016: jo_l_clav
+    400018: jo_l_elbow
+    400020: jo_l_hand_01
+    400022: Jo_l_hand_02
+    400024: Jo_l_hand_03
+    400026: jo_l_leg_01
+    400028: jo_l_leg_02
+    400030: jo_l_leg_03
+    400032: jo_l_leg_04
+    400034: jo_l_leg_05
+    400036: jo_l_sholder
+    400038: jo_l_wrist
+    400040: jo_neck_01
+    400042: jo_neck_02
+    400044: jo_r_clav
+    400046: jo_r_elbow
+    400048: jo_r_hand_01
+    400050: Jo_r_hand_02
+    400052: Jo_r_hand_03
+    400054: jo_r_leg_01
+    400056: jo_r_leg_02
+    400058: jo_r_leg_03
+    400060: jo_r_leg_04
+    400062: jo_r_leg_05
+    400064: jo_r_sholder
+    400066: jo_r_wrist
+    400068: jo_spine_1
+    400070: jo_spine_2
+    400072: M_joint
+    4300000: body
+    4300002: hair2
+    4300004: hair1
+    4300006: hair
+    4300008: hat
+    4300010: head
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: body
+    13700002: hair
+    13700004: hair1
+    13700006: hair2
+    13700008: hat
+    13700010: head
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 
